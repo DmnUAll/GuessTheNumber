@@ -108,6 +108,8 @@ Press the chalkboard to update the numbers
         let textField = UITextField()
         textField.toAutolayout()
         textField.backgroundColor = .lightGray
+        textField.layer.cornerRadius = UIScreen.screenSize(heightDividedBy: 120)
+        textField.textAlignment = .center
         return textField
     }()
 
