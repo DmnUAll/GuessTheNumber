@@ -45,7 +45,7 @@ extension GuessController: UITextFieldDelegate {
     }
 
     func textFieldShouldBeginEditing(_ textField: UITextField) -> Bool {
-        print(123)
+        textField.text = ""
         return true
     }
 }
