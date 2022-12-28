@@ -3,31 +3,43 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		611057DD295AEF23005EFF85 /* UIFont+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 611057DC295AEF23005EFF85 /* UIFont+Extensions.swift */; };
+		611057DF295AF0DF005EFF85 /* UIImageView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 611057DE295AF0DF005EFF85 /* UIImageView+Extensions.swift */; };
+		611057E1295AFB41005EFF85 /* GuessController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 611057E0295AFB41005EFF85 /* GuessController.swift */; };
+		611057E3295AFB88005EFF85 /* GuessPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 611057E2295AFB88005EFF85 /* GuessPresenter.swift */; };
+		612157DD295AE0D900C4C14E /* GuessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 612157DC295AE0D900C4C14E /* GuessView.swift */; };
+		612157E0295AE43200C4C14E /* UIScreen+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 612157DF295AE43200C4C14E /* UIScreen+Extensions.swift */; };
+		612157E2295AE44900C4C14E /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 612157E1295AE44900C4C14E /* UIView+Extensions.swift */; };
+		612157E4295AE86300C4C14E /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 612157E3295AE86300C4C14E /* UIColor+Extensions.swift */; };
 		6143337926F5CFE100536045 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6143337826F5CFE100536045 /* AppDelegate.swift */; };
 		6143337B26F5CFE100536045 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6143337A26F5CFE100536045 /* SceneDelegate.swift */; };
-		6143337D26F5CFE100536045 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6143337C26F5CFE100536045 /* ViewController.swift */; };
-		6143338026F5CFE100536045 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6143337E26F5CFE100536045 /* Main.storyboard */; };
 		6143338226F5CFE600536045 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6143338126F5CFE600536045 /* Assets.xcassets */; };
 		6143338526F5CFE600536045 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6143338326F5CFE600536045 /* LaunchScreen.storyboard */; };
-		6143339026F5E4E300536045 /* Guess.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6143338F26F5E4E300536045 /* Guess.swift */; };
+		6143339026F5E4E300536045 /* GuessGameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6143338F26F5E4E300536045 /* GuessGameModel.swift */; };
 		61E71BBD26FE366000ADF01A /* chalkboard.wav in Resources */ = {isa = PBXBuildFile; fileRef = 61E71BBC26FE366000ADF01A /* chalkboard.wav */; };
 		61E71BBF26FE366500ADF01A /* keyboard.wav in Resources */ = {isa = PBXBuildFile; fileRef = 61E71BBE26FE366500ADF01A /* keyboard.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		611057DC295AEF23005EFF85 /* UIFont+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+Extensions.swift"; sourceTree = "<group>"; };
+		611057DE295AF0DF005EFF85 /* UIImageView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extensions.swift"; sourceTree = "<group>"; };
+		611057E0295AFB41005EFF85 /* GuessController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessController.swift; sourceTree = "<group>"; };
+		611057E2295AFB88005EFF85 /* GuessPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessPresenter.swift; sourceTree = "<group>"; };
+		612157DC295AE0D900C4C14E /* GuessView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessView.swift; sourceTree = "<group>"; };
+		612157DF295AE43200C4C14E /* UIScreen+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIScreen+Extensions.swift"; sourceTree = "<group>"; };
+		612157E1295AE44900C4C14E /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
+		612157E3295AE86300C4C14E /* UIColor+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extensions.swift"; sourceTree = "<group>"; };
 		6143337526F5CFE100536045 /* GuessTheNumber.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GuessTheNumber.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6143337826F5CFE100536045 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6143337A26F5CFE100536045 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		6143337C26F5CFE100536045 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		6143337F26F5CFE100536045 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6143338126F5CFE600536045 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6143338426F5CFE600536045 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6143338626F5CFE600536045 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6143338F26F5E4E300536045 /* Guess.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Guess.swift; sourceTree = "<group>"; };
+		6143338F26F5E4E300536045 /* GuessGameModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessGameModel.swift; sourceTree = "<group>"; };
 		61E71BBC26FE366000ADF01A /* chalkboard.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = chalkboard.wav; sourceTree = "<group>"; };
 		61E71BBE26FE366500ADF01A /* keyboard.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = keyboard.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -43,6 +55,39 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		612157DA295ADFB100C4C14E /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				611057E2295AFB88005EFF85 /* GuessPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		612157DB295ADFC900C4C14E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				612157DE295AE41B00C4C14E /* Helpers */,
+				61E71BC026FE36DC00ADF01A /* Sounds */,
+				6143337A26F5CFE100536045 /* SceneDelegate.swift */,
+				6143337826F5CFE100536045 /* AppDelegate.swift */,
+				6143338126F5CFE600536045 /* Assets.xcassets */,
+				6143338626F5CFE600536045 /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		612157DE295AE41B00C4C14E /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				612157DF295AE43200C4C14E /* UIScreen+Extensions.swift */,
+				612157E1295AE44900C4C14E /* UIView+Extensions.swift */,
+				612157E3295AE86300C4C14E /* UIColor+Extensions.swift */,
+				611057DC295AEF23005EFF85 /* UIFont+Extensions.swift */,
+				611057DE295AF0DF005EFF85 /* UIImageView+Extensions.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 		6143336C26F5CFE100536045 = {
 			isa = PBXGroup;
 			children = (
@@ -65,9 +110,8 @@
 				6143338C26F5CFF700536045 /* Model */,
 				6143338D26F5D00B00536045 /* View */,
 				6143338E26F5D02700536045 /* Controller */,
-				6143338126F5CFE600536045 /* Assets.xcassets */,
-				6143338626F5CFE600536045 /* Info.plist */,
-				61E71BC026FE36DC00ADF01A /* Sounds */,
+				612157DA295ADFB100C4C14E /* Presenter */,
+				612157DB295ADFC900C4C14E /* Supporting Files */,
 			);
 			path = GuessTheNumber;
 			sourceTree = "<group>";
@@ -75,9 +119,7 @@
 		6143338C26F5CFF700536045 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				6143337A26F5CFE100536045 /* SceneDelegate.swift */,
-				6143337826F5CFE100536045 /* AppDelegate.swift */,
-				6143338F26F5E4E300536045 /* Guess.swift */,
+				6143338F26F5E4E300536045 /* GuessGameModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -85,8 +127,8 @@
 		6143338D26F5D00B00536045 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				6143337E26F5CFE100536045 /* Main.storyboard */,
 				6143338326F5CFE600536045 /* LaunchScreen.storyboard */,
+				612157DC295AE0D900C4C14E /* GuessView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -94,7 +136,7 @@
 		6143338E26F5D02700536045 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				6143337C26F5CFE100536045 /* ViewController.swift */,
+				611057E0295AFB41005EFF85 /* GuessController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -118,6 +160,7 @@
 				6143337126F5CFE100536045 /* Sources */,
 				6143337226F5CFE100536045 /* Frameworks */,
 				6143337326F5CFE100536045 /* Resources */,
+				611057E4295C46AB005EFF85 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -169,35 +212,54 @@
 				6143338526F5CFE600536045 /* LaunchScreen.storyboard in Resources */,
 				6143338226F5CFE600536045 /* Assets.xcassets in Resources */,
 				61E71BBF26FE366500ADF01A /* keyboard.wav in Resources */,
-				6143338026F5CFE100536045 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		611057E4295C46AB005EFF85 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint > /dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		6143337126F5CFE100536045 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6143337D26F5CFE100536045 /* ViewController.swift in Sources */,
-				6143339026F5E4E300536045 /* Guess.swift in Sources */,
+				611057DF295AF0DF005EFF85 /* UIImageView+Extensions.swift in Sources */,
+				612157E2295AE44900C4C14E /* UIView+Extensions.swift in Sources */,
+				611057E3295AFB88005EFF85 /* GuessPresenter.swift in Sources */,
+				612157E0295AE43200C4C14E /* UIScreen+Extensions.swift in Sources */,
+				612157E4295AE86300C4C14E /* UIColor+Extensions.swift in Sources */,
+				612157DD295AE0D900C4C14E /* GuessView.swift in Sources */,
+				6143339026F5E4E300536045 /* GuessGameModel.swift in Sources */,
 				6143337926F5CFE100536045 /* AppDelegate.swift in Sources */,
+				611057DD295AEF23005EFF85 /* UIFont+Extensions.swift in Sources */,
 				6143337B26F5CFE100536045 /* SceneDelegate.swift in Sources */,
+				611057E1295AFB41005EFF85 /* GuessController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		6143337E26F5CFE100536045 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6143337F26F5CFE100536045 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		6143338326F5CFE600536045 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -332,15 +394,18 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7WTLW784B9;
-				INFOPLIST_FILE = GuessTheNumber/Info.plist;
+				INFOPLIST_FILE = "GuessTheNumber/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Ilya.I-Am-Rich-AppBrewery";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Ilya.GuessTheNumber;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -351,15 +416,18 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7WTLW784B9;
-				INFOPLIST_FILE = GuessTheNumber/Info.plist;
+				INFOPLIST_FILE = "GuessTheNumber/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Ilya.I-Am-Rich-AppBrewery";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Ilya.GuessTheNumber;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
