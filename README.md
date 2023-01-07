@@ -10,3 +10,6 @@ This project was the second app writen by myself. It helped me to understand an 
 At some moment - the project was refactored to exclude a storyboard UI design. All UI is writen by code since then, but i saved my first project realisation into a separate branch, called ui_by_storyboard(before_refactoring).
 
 Unfornutanely - the audio player causing a memory leak, that i can't fix (will be glad for any advices).
+
+Disclaimer:
+The project was made for educational purposes only.
