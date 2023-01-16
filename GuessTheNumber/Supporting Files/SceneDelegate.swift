@@ -1,10 +1,3 @@
-//
-//  SceneDelegate.swift
-//  GuessTheNumber
-//
-//  Created by Илья Валито on 18.09.2021.
-//
-
 import UIKit
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {

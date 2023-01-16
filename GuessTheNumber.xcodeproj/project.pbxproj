@@ -18,7 +18,6 @@
 		6143337926F5CFE100536045 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6143337826F5CFE100536045 /* AppDelegate.swift */; };
 		6143337B26F5CFE100536045 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6143337A26F5CFE100536045 /* SceneDelegate.swift */; };
 		6143338226F5CFE600536045 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6143338126F5CFE600536045 /* Assets.xcassets */; };
-		6143338526F5CFE600536045 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6143338326F5CFE600536045 /* LaunchScreen.storyboard */; };
 		6143339026F5E4E300536045 /* GuessGameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6143338F26F5E4E300536045 /* GuessGameModel.swift */; };
 		61E71BBD26FE366000ADF01A /* chalkboard.wav in Resources */ = {isa = PBXBuildFile; fileRef = 61E71BBC26FE366000ADF01A /* chalkboard.wav */; };
 		61E71BBF26FE366500ADF01A /* keyboard.wav in Resources */ = {isa = PBXBuildFile; fileRef = 61E71BBE26FE366500ADF01A /* keyboard.wav */; };
@@ -37,7 +36,6 @@
 		6143337826F5CFE100536045 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6143337A26F5CFE100536045 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		6143338126F5CFE600536045 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		6143338426F5CFE600536045 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6143338626F5CFE600536045 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6143338F26F5E4E300536045 /* GuessGameModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessGameModel.swift; sourceTree = "<group>"; };
 		61E71BBC26FE366000ADF01A /* chalkboard.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = chalkboard.wav; sourceTree = "<group>"; };
@@ -127,7 +125,6 @@
 		6143338D26F5D00B00536045 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				6143338326F5CFE600536045 /* LaunchScreen.storyboard */,
 				612157DC295AE0D900C4C14E /* GuessView.swift */,
 			);
 			path = View;
@@ -209,7 +206,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				61E71BBD26FE366000ADF01A /* chalkboard.wav in Resources */,
-				6143338526F5CFE600536045 /* LaunchScreen.storyboard in Resources */,
 				6143338226F5CFE600536045 /* Assets.xcassets in Resources */,
 				61E71BBF26FE366500ADF01A /* keyboard.wav in Resources */,
 			);
@@ -258,17 +254,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		6143338326F5CFE600536045 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6143338426F5CFE600536045 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		6143338726F5CFE600536045 /* Debug */ = {

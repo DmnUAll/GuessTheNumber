@@ -67,7 +67,6 @@ extension GuessPresenter: GuessViewDelegate {
         guessGame.userGuess = guess
         guessGame.actualSuggestion = Int.random(in: (guessGame.fromNumber...guessGame.toNumber))
         sharedUI.suggestedNumberLabel.text = String(guessGame.actualSuggestion)
-
         sharedUI.computerResultLabel.text = guessGame.compareAnswers()
         playSound("keyboard")
     }
