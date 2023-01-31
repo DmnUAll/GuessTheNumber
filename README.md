@@ -5,7 +5,6 @@ A game where you should guess the number that stored into a mystery ball. Your o
 <img src="https://user-images.githubusercontent.com/82824022/209808649-24a54dc6-52b1-4ba0-9fc1-1d11fba9531a.PNG" width=30% height=30%>
 </p>
 
-This project was the second app writen by myself.\
 The main functionality that was applied in this project:
 - AVAudioPlayer
 - UITextField delegate methods
